@@ -1,6 +1,6 @@
 {
-    "Users":
-    {"1098802730" : {
+    "Users":[
+    {
         "CC" : "1098802730",
         "nombreCompleto" :"Santiago Aguilar Vesga",
         "direccion": "Calle 94 #14a - 14",
@@ -12,11 +12,12 @@
         },
         "duracion": "",
         "fechaIngreso": ["10", "02", "2025"],
-        "fechaActual": ["13", "02", "2025"]
-    }},
-    {"1098802731" : {
-        "CC" : "1098802731s",
-        "nombreCompleto" :"Santiago Fernando Vesga",
+        "fechaActual": ["13", "02", "2025"],
+        "activo": true
+    },
+    {
+        "CC" : "1098802731",
+        "nombreCompleto" :"Santiago Fernando Zapata",
         "direccion": "Calle 105 #14a - 14",
         "telefono": "3502372654",
         "categoria":{
@@ -26,9 +27,10 @@
         },
         "duracion": "",
         "fechaIngreso": ["20", "11", "2023"],
-        "fechaActual": ["13", "02", "2025"]
-    }},
-    {"1098802344" : {
+        "fechaActual": ["13", "02", "2025"],
+        "activo": true
+    },
+    {
         "CC" : "1098802344",
         "nombreCompleto" :"Sofia Aguilar Carrizosa",
         "direccion": "Calle 105 #116 - 20",
@@ -40,9 +42,23 @@
         },
         "duracion": "",
         "fechaIngreso": ["20", "11", "2023"],
+        "fechaActual": ["13", "02", "2025"],
+        "activo": true
+    },
+    {
+        "CC" : "109883213123",
+        "nombreCompleto" :"Nestor Santiago Suarez",
+        "direccion": "Carrera 15 #26 - 20",
+        "telefono": "34242726213",
+        "categoria":{
+            "clienteNuevo": true,
+            "clienteRegular": false,
+            "clienteleal": false
+        },
+        "duracion": "",
+        "fechaIngreso": ["14", "11", "2010"],
         "fechaActual": ["13", "02", "2025"]
-    }}
-    
+   ,         "activo": true
+    }
 
-
-}
+]}
