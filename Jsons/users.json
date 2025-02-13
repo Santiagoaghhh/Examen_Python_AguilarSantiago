@@ -1,0 +1,48 @@
+{
+    "Users":
+    {"1098802730" : {
+        "CC" : "1098802730",
+        "nombreCompleto" :"Santiago Aguilar Vesga",
+        "direccion": "Calle 94 #14a - 14",
+        "telefono": "3502372654",
+        "categoria":{
+            "clienteNuevo": true,
+            "clienteRegular": false,
+            "clienteleal": false
+        },
+        "duracion": "",
+        "fechaIngreso": ["10", "02", "2025"],
+        "fechaActual": ["13", "02", "2025"]
+    }},
+    {"1098802731" : {
+        "CC" : "1098802731s",
+        "nombreCompleto" :"Santiago Fernando Vesga",
+        "direccion": "Calle 105 #14a - 14",
+        "telefono": "3502372654",
+        "categoria":{
+            "clienteNuevo": true,
+            "clienteRegular": false,
+            "clienteleal": false
+        },
+        "duracion": "",
+        "fechaIngreso": ["20", "11", "2023"],
+        "fechaActual": ["13", "02", "2025"]
+    }},
+    {"1098802344" : {
+        "CC" : "1098802344",
+        "nombreCompleto" :"Sofia Aguilar Carrizosa",
+        "direccion": "Calle 105 #116 - 20",
+        "telefono": "3504272654",
+        "categoria":{
+            "clienteNuevo": true,
+            "clienteRegular": false,
+            "clienteleal": false
+        },
+        "duracion": "",
+        "fechaIngreso": ["20", "11", "2023"],
+        "fechaActual": ["13", "02", "2025"]
+    }}
+    
+
+
+}
