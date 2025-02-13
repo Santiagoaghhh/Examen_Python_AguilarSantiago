@@ -28,7 +28,7 @@
         "duracion": "",
         "fechaIngreso": ["20", "11", "2023"],
         "fechaActual": ["13", "02", "2025"],
-        "activo": true
+        "activo": false
     },
     {
         "CC" : "1098802344",

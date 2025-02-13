@@ -17,10 +17,11 @@ users = abrirJSON()
 #1 . VER USUARIO
 def verUsuarios():
     for i in range(len(users["Users"])):
-        print(f" \n Usuario #{i + 1}")
-        print("Nombre: ", users["Users"][i]["nombreCompleto"])
-        print("CC: ", users["Users"][i]["CC"])        
-        print("=================================================0")
+        if users["Users"][i]["activo"]:
+            print(" \n Usuario #", i + 1)
+            print("Nombre: ", users["Users"][i]["nombreCompleto"])
+            print("CC: ", users["Users"][i]["CC"])        
+            print("=================================================0")
 
 #2. BUSCAR USUARIO
 def buscarUsuario():
@@ -28,20 +29,31 @@ def buscarUsuario():
     buscarUser = int(input("Ingrese el numero de usuario #: "))
     if users["Users"][buscarUser - 1]["activo"]:
         print("Activo: Sí")
-    else: 
+    else:
         print("Activo: No")
     print("Nombre: ", users["Users"][buscarUser - 1]["nombreCompleto"])
     print("CC: ", users["Users"][buscarUser - 1]["CC"])
     return buscarUser
 
 #3. EDITAR USUARIO
-def EditarUsuarios():
+def editarUsuarios():
     buscarUser = buscarUsuario()
-    for i in range(len(users["Users"][buscarUser - 1])):
-        print(users["Users"][buscarUser - 1])    
+    print(users["Users"][buscarUser - 1])    
     editarUser = input("Ingrese qué desea editar: ")
     nuevoValue = input("Ingresa la nueva información: ")
     users["Users"][buscarUser - 1][editarUser]=nuevoValue
-    
+    guardarJSON(users)
 
-EditarUsuarios()
+#4. ELIMINAR USUARIO
+def eliminarUsuario():
+    buscarUser = buscarUsuario()
+    eliminarUser = input("¿Desea eliminar a este usuario?")
+    users["Users"][buscarUser - 1]["activo"]=False
+
+verUsuarios()
+
+
+#============================================================================================#
+
+def calcularTiempo()
+    for i in range ()
